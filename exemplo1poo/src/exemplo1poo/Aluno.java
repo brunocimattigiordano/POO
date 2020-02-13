@@ -17,9 +17,15 @@ public class Aluno {
 	{}
 	public void calcTempoFac(int anoatual) 
 	{
-		System.out.println("O aluno "+nome+" estuda há "+(anoatual-this.anoIngress));
-		if(anoatual-this.anoIngress>5)
-			System.out.println("Fazer novo vestibular");
+		if(anoatual-this.anoIngress>0)
+		{
+			System.out.println("O aluno "+nome+" estuda há "+(anoatual-this.anoIngress)+" anos");
+			if(anoatual-this.anoIngress>5)
+				System.out.println("Fazer novo vestibular");
+		}
+		else {
+			System.out.println("O ano de ingresso não pode ser maior do que o ano atual");
+		}
 	}
 	
 	//getters & setters

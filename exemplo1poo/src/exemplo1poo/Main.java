@@ -16,12 +16,13 @@ public class Main {
 		// TODO Auto-generated method stub
 		/*Exemplo1 objet=new Exemplo1();
 		objet.mostra();*/
+		int anoatual=2020;
 		
-		Aluno jay=new Aluno("Jacob","ADS",1 );
-		jay.calcTempoFac(10);
+		Aluno jay=new Aluno("Jacob","ADS",2010 );
+		jay.calcTempoFac(anoatual);
 		
-		Aluno barb=new Aluno("Barbra", "ADS", 8);
-		barb.calcTempoFac(10);
+		Aluno barb=new Aluno("Barbra", "ADS", 2018);
+		barb.calcTempoFac(anoatual);
 		
 	}
 
