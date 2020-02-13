@@ -17,8 +17,9 @@ public class Main {
 		/*Exemplo1 objet=new Exemplo1();
 		objet.mostra();*/
 		int anoatual=2020;
-		
-		Aluno jay=new Aluno("Jacob","ADS",2010 );
+		if(anoatual<0)
+			anoatual*=(-1);
+		Aluno jay=new Aluno("Jacob","ADS", 2010);
 		jay.calcTempoFac(anoatual);
 		
 		Aluno barb=new Aluno("Barbra", "ADS", 2018);

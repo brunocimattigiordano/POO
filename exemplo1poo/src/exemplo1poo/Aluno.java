@@ -9,6 +9,8 @@ public class Aluno {
 	Aluno(String nome, String curso, int anoIngress) {
 		this.setNome(nome);
 		this.setCurso(curso);
+		if(anoIngress<0)
+			anoIngress*=(-1);
 		this.setAnoIngress(anoIngress);
 	}
 	
